@@ -1,29 +1,21 @@
-div {
-  width: 500px;
-  height: 500px;
-  color: aqua;
-  background: #333333;
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+
+  background-color: #f9f9f9;
+  color: #333333;
+
+  width: 980px;
+  margin: 0 auto;
 }
 
-#main {
-  color: white;
-  width: 750px;
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
-.text-white {
-  color: white;
-}
-
-.alert {
-  height: 350px;
-  color: gray;
-}
-
-div {
-  background:bisque;
-}
-
-.alert-warning {
-  background: #000000;
-  color: yellow;
+main > h2 {
+  text-align: center;
+  font-size: 25px;
 }
